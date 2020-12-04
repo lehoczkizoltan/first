@@ -1,0 +1,16 @@
+Water = "hot"
+glass = "full"
+drink = False
+
+
+if Water == "cold" and glass == "full":
+    drink = True
+
+
+elif Water == "hot" and glass == "full":
+    drink= True
+
+else:
+    drink= "Pour me some water, please"
+
+print(drink)
